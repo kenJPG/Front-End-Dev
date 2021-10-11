@@ -1,0 +1,35 @@
+/* Secondary School Content */
+
+/* Setting the height and the background for "My Secondary School" */
+.secSchoolContent {
+	min-height: 52rem;
+	background: linear-gradient(to right, #84B59F 50%, #6B9AA7 50%);
+}
+
+/* Targeting the children of .secSchoolContent by selecting divs that have a class
+that ends with "-Container" */
+.secSchoolContent div[class$="Container"] {
+	min-height: 28rem;
+}
+
+/* Setting the image size of my secondary school items*/
+.secSchoolContent img {
+	max-height: 18rem;
+}
+
+/* Padding for the figure, such that it is inline with the other elements */
+.springfieldContainer {
+	padding-top: 2rem;
+}
+
+/* My Grades Content */
+
+.myGradesContent {
+	min-height: 45rem;
+	background-color: #FDF8F4;
+}
+
+/* Setting height of the text list */
+.gradesText {
+	min-height: 25rem;
+}

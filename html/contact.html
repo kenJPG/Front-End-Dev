@@ -1,0 +1,400 @@
+<!--
+	Images that do not have a comment providing the source were drawn by me.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contact</title>
+		
+        <!-- Favicon taken from Pinterest: https://www.pinterest.com/pin/34551122112612212/-->
+        <link href="../img/favicon.png" type="image/png" rel="shortcut icon" />
+		
+		
+		<!-- Linking Bootstrap CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		
+        <!-- Linking Local CSS Files -->
+		<link rel="stylesheet" href="../css/navigation.css" />
+		<link rel="stylesheet" href="../css/default.css" />
+		<link rel="stylesheet" href="../css/contact.css" />
+		<link rel="stylesheet" href="../css/contact_modal.css" />
+		<link rel="stylesheet" href="../css/contact_feedback.css" />
+		
+	</head>
+	<body class="bg-light">
+		
+		<!-- Header for Navigation -->
+		<header>
+
+			<!-- Back To Top button. This div acts as the button -->
+			<div id="toTopButton" class="border border-dark d-flex btn btn-info position-fixed text-dark">
+
+				<!-- Resetting the font size using defaultFont class  -->
+				^<span class="defaultFont"></span>
+			</div>
+
+			<!-- Navbar that will expand at medium size. It will be a dark theme. -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				<!-- Navbar Icon -->
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand sticky-top">🍂</a>
+				</div>
+
+				<!-- Navbar Increase Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNavBar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="toggleNavBar">
+					<ul class="navbar-nav">
+
+						<!-- Navbar Items each button will be taking on a dark theme. -->
+						<li class="nav-item"><a class="nav-link btn btn-dark" href="index.html">home</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark" href="past.html">past</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark" href="present.html">present</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark" href="future.html">future</a></li>
+
+						<!-- Dropdown Item -->
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle btn btn-dark" data-toggle="dropdown">contact</a>
+
+							<!-- Dropdown Menu -->
+							<div class="dropdown-menu">
+
+								<!-- Dropdown Options for Contact -->
+								<a href="contact.html" class="dropdown-item">Contact Me</a>
+								<div class="dropdown-divider"></div>
+								<a href="contact.html#socialMediaArea" class="dropdown-item">Social Media</a>
+								<a href="contact.html#feedbackFormArea" class="dropdown-item">Feedback Form</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Main Content -->
+		<main>
+
+			<!-- Title Page -->
+			<div class="titlePage">
+				<div class="row align-items-center justify-content-center">
+					<div class="titleContainer text-left">
+						<p class="display-2">|</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Social Media -->
+			<div class="socialMediaContent px-5" id="socialMediaArea">
+
+				
+				<!-- Icon Container -->
+				<div class="iconContainer row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 align-items-center justify-content-center rounded text-center px-5">
+
+					<!-- Facebook Column -->
+					<div class="col py-4 d-flex justify-content-center">
+
+						<div class="buttonContainer opacity0">
+							<a data-toggle="modal" href="#facebookModal">
+								<!-- Design: http://pixelartmaker.com/art/1a323afbb1ad514 -->
+								<img src="../img/facebook.png" alt="Facebook Icon">
+							</a>
+						</div>
+						
+						<!-- Facebook Modal -->
+						<div class="modal fade" id="facebookModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="h2">My Facebook</p>
+										<button type="button" class="close" data-dismiss="modal">x</button>
+									</div>
+									<div class="modal-body">
+										<input class="form-control border-0 text-dark rounded" type="text" value="kennethchen51" readonly/> 
+										<div class="d-inline copyButton m-0 p-0">
+											copy
+										</div>
+										<p class="success opacity0 text-success">Copied to Clipboard!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Instagram Column -->
+					<div class="col py-4 d-flex justify-content-center">
+						
+						<div class="buttonContainer opacity0">
+							<a data-toggle="modal" href="#instagramModal">
+								<!-- Design: http://pixelartmaker.com/art/31c29e1581fabdf -->
+								<img class="instagram" src="../img/instagram.png" alt="Instagram Icon">
+							</a>
+						</div>
+						
+						<!-- Instagram Modal -->
+						<div class="modal fade" id="instagramModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="h2">My Instagram</p>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<input class="form-control border-0 text-dark rounded" type="text" value="kenchen5" readonly /> 
+										<div class="d-inline copyButton m-0 p-0">
+											copy
+										</div>
+										<p class="success opacity0 text-success">Copied to Clipboard!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Twitter Column -->
+					<div class="col py-4 d-flex justify-content-center">
+						
+						<div class="buttonContainer opacity0">
+							<a data-toggle="modal" href="#twitterModal">
+
+								<!-- Design: http://pixelartmaker.com/art/9bea3ad95260777 -->
+								<img class="twitter" src="../img/twitter.png" alt="Twitter Icon">
+							</a>
+						</div>
+						
+						<!-- Twitter Modal -->
+						<div class="modal fade" id="twitterModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="h2">My Twitter</p>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<input class="form-control border-0 text-dark rounded" type="text" value="kenny51" readonly /> 
+										<div class="d-inline copyButton m-0 p-0">
+											copy
+										</div>
+										<p class="success opacity0 text-success">Copied to Clipboard!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Snapchat Column -->
+					<div class="col py-4 d-flex justify-content-center">
+						
+						<div class="buttonContainer opacity0">
+							<a data-toggle="modal" href="#snapchatModal">
+								<!-- Design: http://pixelartmaker.com/art/4b02876e12542ab -->
+								<img class="snapchat" src="../img/snapchat.png" alt="Snapchat Icon">
+							</a>
+						</div>
+						
+						<!-- Snapchat Modal -->
+						<div class="modal fade" id="snapchatModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="h2">My Snapchat</p>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<input class="form-control border-0 text-dark rounded" type="text" value="kenuth51" readonly /> 
+										<div class="d-inline copyButton m-0 p-0">
+											copy
+										</div>
+										<p class="success opacity0 text-success">Copied to Clipboard!</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Email Column -->
+					<div class="col py-4 d-flex justify-content-center">
+						
+						<div class="buttonContainer opacity0">
+							<a data-toggle="modal" href="#gmailModal">
+								<!-- Design: http://pixelartmaker.com/art/2608a80a1bd8ac0 -->
+								<img class="gmail" src="../img/gmail.png" alt="Gmail Icon">
+							</a>
+						</div>
+						
+						<!-- Email Modal -->
+						<div class="modal fade" id="gmailModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="h2">My Email</p>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									<div class="modal-body">
+										<input class="form-control border-0 text-dark rounded" type="text" value="kennethchen13@gmail.com" readonly /> 
+										<div class="d-inline copyButton m-0 p-0">
+											copy
+										</div>
+										<p class="success opacity0 text-success">Copied to Clipboard!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Feedback Form -->
+			<div class="feedbackContent d-flex align-items-center justify-content-center" id="feedbackFormArea">
+				<div class="container text-light rounded">
+
+					<!-- Form -->
+					<form action="#" method="post" class="needs-validation" novalidate>
+						<div class="mainRow row row-cols-md-2 row-cols-1 p-3 justify-content-center">
+
+							<!-- First Form column -->
+							<div class="col-12">
+									
+								<!-- Name Input -->
+								<div class="form-group mb-3">
+									<label for="name">Name</label>
+									<input class="form-control" type="text" id="name" placeholder="John Doe" maxlength="345" autocomplete="off" required>
+								</div>
+
+
+								<!-- Email Input -->
+								<div class="form-group mb-3">
+									<label for="email">Email</label>
+									<div class="row">
+										<div class="col-12">
+											<input class="form-control" type="email" id="email" autocomplete="off" required maxlength="345" placeholder="example@gmail.com" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+										</div>
+
+										<!-- Suggestions List -->
+										<div class="col-12">
+											<div class="listContainer d-flex bg-info">
+												<ul class="list-group list-unstyled invisible text-dark" id="results"></ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Rating radio -->
+								<div class="form-group mb-3">
+
+									<p>What would you rate my website?</p>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="rating1" name="rate" class="custom-control-input" required>
+										<label class="custom-control-label" for="rating1">1</label>
+									</div>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="rating2" name="rate" class="custom-control-input">
+										<label class="custom-control-label" for="rating2">2</label>
+									</div>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="rating3" name="rate" class="custom-control-input">
+										<label class="custom-control-label" for="rating3">3</label>
+									</div>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="rating4" name="rate" class="custom-control-input">
+										<label class="custom-control-label" for="rating4">4</label>
+									</div>
+									<div class="custom-control custom-radio custom-control-inline">
+										<input type="radio" id="rating5" name="rate" class="custom-control-input">
+										<label class="custom-control-label" for="rating5">5</label>
+									</div>
+								</div>
+
+								<!-- Liked the most selection -->
+								<div class="form-group">
+									<label for="liked">
+										Which part do you like the most?
+									</label>
+	
+									<select id="liked" class="custom-select">
+										<option value="home">Home</option>
+										<option value="past">Past</option>
+										<option value="present">Present</option>
+										<option value="future">Future</option>
+										<option value="contact">Contact</option>
+									</select>
+								</div>
+	
+								<!-- Change checkbox -->
+								<div class="form-group">
+									<p>Which parts do you like the least/would like to see me change?</p>
+	
+									<div class="custom-control custom-checkbox custom-control-inline">
+	
+										<input id="home" type="checkbox" class="custom-control-input" value="home" />
+										<label for="home" class="custom-control-label">Home</label>
+									</div>
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input id="past" type="checkbox" class="custom-control-input" value="past" />
+										<label for="past" class="custom-control-label">Past</label>
+									</div>
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input id="present" type="checkbox" class="custom-control-input" value="present" />
+										<label for="present" class="custom-control-label">Present</label>
+									</div>
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input id="future" type="checkbox" class="custom-control-input" value="future" />
+										<label for="future" class="custom-control-label">Future</label>
+									</div>
+									<div class="custom-control custom-checkbox custom-control-inline">
+										<input id="contact" type="checkbox" class="custom-control-input" value="contact" />
+										<label for="contact" class="custom-control-label">Contact</label>
+									</div>
+								</div>
+							</div>
+
+							<!-- Second Form column -->
+							<div class="col-12">
+								<div class="form-group">
+									<label class="form-label" for="recommend">
+										How likely are you to recommend my site to other people?<br />
+									</label>
+									<input id="recommend" class="form-range" type="range" min="1" max="10">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="type_feedback" maxlength="1000" rows="15" cols="70" placeholder="Other feedback (optional)"></textarea>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 d-flex justify-content-center">
+								<button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+		</main>
+		<footer>
+			<!-- Div for footer.  -->
+			<div class="Flag bg-dark d-flex justify-content-center align-items-center">
+				<a href="https://www.wikipedia.org/wiki/Singapore" target="_blank"><img src="../img/sg_flag.png" alt="Singapore Flag"></a>
+			</div>
+		</footer>
+
+
+		<!-- Linking JQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+		<!-- Linking Bootstrap Bundle(includes popper.js) -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	
+		<!-- Linking JavaScript files from ../js -->
+		<script src="../js/fade_in.js"></script>
+		<script src="../js/totop_button.js"></script>
+		<script src="../js/copy_button.js"></script>
+		<script src="../js/type_effect.js"></script>
+		<script src="../js/email_suggestions.js"></script>
+		<script src="../js/contact_effects.js"></script>
+		<script src="../js/contact_form_validation.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,65 @@
+/* Styling Title Container */
+.titleContainer {
+	margin-left: 3vw;
+	width: 28rem;
+	height: 8rem;
+}
+
+/* Background color to to top button */
+#toTopButton {
+	background: #F9E8A0;
+}
+
+
+/* Social Media Styling */
+
+.socialMediaContent {
+	min-height: 30rem;
+	background: #F86C6F;
+}
+
+.socialMediaContent > .row {
+	min-height: 30rem;
+}
+
+.iconContainer {
+	min-height: 20vh;
+}
+
+/* Styling the icon image */
+.socialMediaContent img {
+	width: 6rem;
+	height: 6rem;
+	position: relative;
+	/* Z-index to appear above the ::before pseudo-class */
+	z-index: 1;
+}
+
+/* Before element to give a "popping" effect to the icons */
+.buttonContainer::before {
+	content: "";
+	position: absolute;
+	display: grid;
+	width: 5.5rem;
+	height: 5.5rem;
+	border-radius: 15px;
+	background: rgb(208,68,71);
+	margin-top: 8px;
+	margin-left: 5px;
+	transition: transform 80ms linear;
+}
+
+.buttonContainer img {
+	transition: transform 80ms linear;
+}
+
+/* Animating icon buttons when hovered */
+.buttonContainer img:hover {
+	transform: scale(1.03) translateY(-3px);
+}
+
+/* Animate darker background */
+.buttonContainer:hover::before {
+	transform: scale(1.03) translateY(-3px);
+}
+

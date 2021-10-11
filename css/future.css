@@ -1,0 +1,39 @@
+/* Styling the to top button */
+#toTopButton {
+	background-color: rgb(255,128,131);
+}
+
+/* Styling Possible Careers */
+
+.possibleCareersContent {
+	background: #14213D;
+	min-height: 55rem;
+}
+
+/* Prevent the title from extending too much, especially at
+smaller viewports */
+.possibleCareersTitle {
+	max-height: 20rem;
+}
+
+/* Styling possible career image */
+.possibleCareersContent img {
+	max-height: 20rem;
+	max-width: 100%;
+}
+
+/* Styling cards in possible careers */
+.possibleCareersContent .card {
+	border-top: 1.5rem solid rgb(50, 63, 91);
+}
+
+/* Styling My Course Content */
+
+.myCourseContent {
+	background: #FCA311;
+	min-height: 55rem;
+}
+
+.myCourseContainer {
+	min-height: 55rem;
+}

@@ -1,0 +1,8 @@
+/* Styling the gradesTable */
+.gradesTable {
+	min-height: 40rem;
+}
+
+.gradesTable table {
+	min-width: 50rem;
+}

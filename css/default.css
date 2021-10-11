@@ -1,0 +1,60 @@
+body {
+	overflow-x: hidden; 
+}
+
+div {
+	display: block;
+}
+
+/* The default font. Just in case anything needs to be reset */
+.defaultFont {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Default size */
+.defaultSize {
+	font-size: 1rem;
+}
+
+/* The back to top button */
+#toTopButton {
+	position: fixed;
+	z-index: 3;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 100rem;
+	font-size: 1rem;
+	visibility: hidden;
+}
+
+
+/* Styling the height of the title page */
+.titlePage, .titlePage .row {
+	width: 100vw !important;
+	height: 45rem;
+}
+
+/* Class primarily used for Fade-In effects */
+.opacity0 {
+	opacity: 0;
+}
+
+/* Styling the flag in the footer */
+footer .Flag {
+	height: 4rem;
+}
+
+/* Footer image */
+footer img {
+	height: 4rem;
+
+	/* Grayscale here used as preparation for the hover effect */
+	filter: grayscale(100%);
+	transition: filter 200ms linear;
+}
+
+/* Remove grayscale when hovered */
+footer img:hover {
+	filter: grayscale(0%);
+}
+

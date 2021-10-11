@@ -1,0 +1,284 @@
+<!--
+	Images that do not have a comment providing the source were drawn by me.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home</title>
+		
+        <!-- Favicon taken from Pinterest: https://www.pinterest.com/pin/34551122112612212/-->
+        <link href="../img/favicon.png" type="image/png" rel="shortcut icon" />
+		
+		
+		<!-- Linking Bootstrap CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		
+        <!-- Linking Local CSS Files -->
+		<link rel="stylesheet" href="../css/home.css" />
+		<link rel="stylesheet" href="../css/home_game.css" />
+		<link rel="stylesheet" href="../css/navigation.css" />
+		<link rel="stylesheet" href="../css/default.css" />
+		
+	</head>
+	<body class="bg-light">
+		
+		<!-- Header for Navigation -->
+		<header>
+
+			<!-- Back To Top button. This div acts as the button -->
+			<div id="toTopButton" class="border border-dark d-flex btn btn-warning position-fixed text-dark">
+
+				<!-- Resetting the font size using defaultFont class  -->
+				^<span class="defaultFont"></span>
+			</div>
+
+			<!-- Navbar that will expand at medium size. It will be a dark theme. -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				<!-- Navbar Icon -->
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand sticky-top">🍂</a>
+				</div>
+
+				<!-- Navbar Increase Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNavBar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="toggleNavBar">
+					<ul class="navbar-nav">
+
+						<!-- Navbar Items each button will be taking on a dark theme. -->
+						<li class="nav-item active"><a class="nav-link btn btn-dark" href="index.html">home</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark bg-dark" href="past.html">past</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark bg-dark" href="present.html">present</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-dark bg-dark" href="future.html">future</a></li>
+
+						<!-- Dropdown Item -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle btn btn-dark bg-dark" data-toggle="dropdown">contact</a>
+
+							<!-- Dropdown Menu -->
+							<div class="dropdown-menu">
+
+								<!-- Dropdown Options for Contact -->
+								<a href="contact.html" class="dropdown-item">Contact Me</a>
+								<div class="dropdown-divider"></div>
+								<a href="contact.html#socialMediaArea" class="dropdown-item">Social Media</a>
+								<a href="contact.html#feedbackFormArea" class="dropdown-item">Feedback Form</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Main Content -->
+		<main>
+
+			<!-- Title Page -->
+			<div class="titlePage">
+				<div class="row align-items-center">
+
+					<div class="d-flex col-sm-12 text-center justify-content-center">
+
+						<!-- Title Text. opacity0 for fade in effect -->
+						<p class="opacity0 mainTitle display-1">
+
+							<!-- Hi -->
+							<span>H</span><span>i</span><span>. 
+
+							<!-- I'm -->
+							</span><span>I'</span><span>m</span>
+
+							<!-- Kenneth -->
+							<span>K</span><span>e</span><span>n</span><span>n</span><span>e</span><span>t</span><span>h</span>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- My Interests -->
+			<div class="interestsContent">
+
+				<div class="container py-5">
+					<div class="row justify-content-center">
+						<div class="col-12 my-5">
+
+							<!-- My Interests Title -->
+							<p class="h1 text-white text-center">My Interests</p>
+
+						</div>
+
+						<!-- Column 1 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Sports Card -->
+							<div class="card text-center opacity0">
+								<div class="d-flex justify-content-center pt-4">
+									<img class="card-img" src="../img/soccer-trophy.png" alt="Soccer Trophy">
+								</div>
+								<div class="card-body">
+									<p class="h2 card-title">Sports</p>
+									<p class="card-text">I love playing sports! I've been playing soccer since I was five.</p>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Column 2 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Computer Game Card -->
+							<div class="card text-center opacity0">
+								<div class="d-flex justify-content-center pt-4">
+									<img class="card-img" src="../img/computer-game.png" alt="Computer Game">
+								</div>
+								<div class="card-body">
+									<p class="h2 card-title">Games</p>
+									<p class="card-text">I enjoy playing games on my computer! Lately I've been getting into a game called Undertale</p>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Column 3 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Computer Code Card -->
+							<div class="card text-center opacity0">
+								<div class="d-flex justify-content-center pt-4">
+									<img class="card-img" src="../img/computer-code.png" alt="Computer Code">
+								</div>
+								<div class="card-body">
+									<p class="h2 card-title">Coding</p>
+									<p class="card-text">Obviously coding has got to be here haha! It's really relaxing to do.</p>	
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Connect Four Game -->
+			<div class="gameContent">
+				<div class="row justify-content-center align-items-center">
+
+					<!-- Title / text container -->
+					<div class="col-12 col-lg-5 p-5">
+						<div class="gameTextContainer text-center">
+							<p class="display-4">
+								To show my love for games, here's one I've made!
+							</p>
+							<p class="h4">
+								Connect 4!
+							</p>
+						</div>
+					</div>
+
+					<!-- Game container -->
+					<div class="col-12 col-lg-7">
+						<div class="gameContainer d-flex justify-content-center m-5 p-5">
+
+							<!-- This id is used to construct the game. All HTML elements will be built
+							using JavaScript to make it easier to understand -->
+							<div class="m-5" id="connectFour"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- About Me  -->
+			<div class="aboutMeContent">
+
+				<!-- Bootstrap Carousel -->
+				<div id="aboutMeCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					<div class="carousel-inner" >
+
+						<!-- First Carousel Item -->
+						<div class="carousel-item active">
+
+							<!-- My Values. This will contain the text -->
+							<div id="myValuesItem" class="d-flex justify-content-center align-items-center h-100">
+
+								<!-- opacity0 added for the sake of fade in effects -->
+								<div class="myValuesContainer text-center opacity0">
+									<p class="h2 text-white text-center">My Values</p>
+
+									<!-- Using row to equally position the description items -->
+									<div class="row text-white text-center justify-content-center py-4">
+										<div class="col-3">Honesty.</div>
+										<div class="col-3">Respect Elders.</div>
+										<div class="col-3">Hard Work.</div>
+										<div class="col-3">Smart Work.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Second Carousel Item -->
+						<div class="carousel-item">
+
+							<!-- My Personality. This will contain the text, using flexbox to center -->
+							<div id="myPersonalityItem" class="d-flex justify-content-center align-items-center h-100">
+
+								<!-- This div container will be centered due to the parent flexbox. -->
+								<div class="myPersonalityContainer text-center text-white opacity0 text-wrap">
+									<p class="h2">My Personality</p>
+									<p>
+										I've taken the 16-personality test and acccording to it I'm an ESFJ-A!
+									</p>
+									<p>
+										I love to make new friends. Each person has their own stories and it's fascinating to listen to!
+									</p>
+									<p>
+										I'm incredibly sentimental. I value every gift I've received and know exactly who it's from! 
+									</p>
+									<p>
+										I enjoy helping people. It puts a smile on my face every time I get the chance to make
+										somebody's day easier.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Left / Previous Button -->
+					<a class="carousel-control-prev" href="#aboutMeCarousel" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+
+					<!-- Right / Forward Button -->
+					<a class="carousel-control-next" href="#aboutMeCarousel" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+
+		</main>
+		<footer>
+			<!-- Div for footer.  -->
+			<div class="Flag bg-dark d-flex justify-content-center align-items-center">
+				<a href="https://www.wikipedia.org/wiki/Singapore" target="_blank"><img src="../img/sg_flag.png" alt="Singapore Flag"></a>
+			</div>
+		</footer>
+
+
+		<!-- Linking JQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+		<!-- Linking Bootstrap Bundle(includes popper.js) -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	
+		<!-- Linking JavaScript files from ../js -->
+		<script src="../js/fade_in.js"></script>
+		<script src="../js/totop_button.js"></script>
+		<script src="../js/degray.js"></script>
+		<script src="../js/rainbowify.js"></script>
+		<script src="../js/home_game.js"></script>
+		<script src="../js/home_effects.js"></script>
+	</body>
+
+</html>

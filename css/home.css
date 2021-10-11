@@ -1,0 +1,80 @@
+/* Title-page styling */
+
+.titlePage {
+
+	/* Bar-like gradient of solid colors */
+	background: linear-gradient(to top, rgba(226, 113, 81, 100%) 2%, rgba(226, 113, 81, 66%) 2%, rgba(226, 113, 81, 66%) 4%, rgba(226, 113, 81, 33%) 4%, rgba(226, 113, 81, 33%) 6%, rgba(226, 113, 81, 33%) 6%, transparent 6%, transparent 100%) !important;
+}
+
+/* Interests Styling */
+.interestsContent {
+	min-height: 45rem;
+	background: rgb(226, 113, 81, 100%);
+}
+
+/* Card Styling */
+
+.interestsContent .card {
+	box-shadow: -3px 3px 3px 2px rgba(0, 0, 0, 20%), 3px 3px 3px 2px rgba(0, 0, 0, 20%);
+	padding: 0;
+	border-radius: 20px;
+	min-height: 23rem;
+	background-color: #F8F9FA;
+}
+
+.card-img {
+	height: 10rem;
+	width: 10rem;
+}
+
+.gameContent {
+	background-color: #FAF0E6;
+}
+
+/* About Me Content */
+
+.aboutMeContent {
+	background-color: #F8F9FA;
+}
+
+/* Carousel Styling */
+
+.aboutMeContent .carousel-item {
+	height: 50rem;
+	width: 100%;
+}
+
+/* Styling the carousel item: "my values" */
+
+#myValuesItem {
+	/* Background Image taken from: https://www.pinterest.com/pin/582723639265882235/ */
+	background-image: url(../img/valuebackground.gif);
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(100%) blur(4px);
+}
+
+.myValuesContainer .h2 {
+	margin-top: 4rem;
+}
+
+#myValuesItem .row {
+	min-width: 50vw;
+	font-size: 1.2rem;
+}
+
+/* Styling the carousel item: "my personality" */
+
+#myPersonalityItem {
+	/* Background Image taken from https://www.pinterest.com/pin/446349013053095188/ */
+	background-image: url(../img/personalitybackground.gif);
+	background-size: 320px 180px;
+	background-repeat: repeat;
+	filter: grayscale(100%) blur(4px);
+}
+
+.myPersonalityContainer {
+	margin-top: 11rem;
+	font-size: 1.2rem;
+	max-width: 50vw;
+}

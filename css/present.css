@@ -1,0 +1,49 @@
+/* Styling the title page */
+.titlePage {
+	max-height: 45rem;
+}
+
+.mainTitle {
+	min-height: 7.2rem;
+}
+
+/* Styling My First Impression */
+.firstImpressionContent {
+	background: #F2F2F2;
+}
+
+/* Styling Cards */
+.card {
+	border-left: 1rem solid var(--teal);
+	box-shadow: -3px 3px 3px 2px rgba(0, 0, 0, 20%), 3px 3px 3px 2px rgba(0, 0, 0, 20%);
+}
+
+.card img {
+	width: 17rem;
+	height: 17rem;
+}
+
+/* Styling my experience content */
+.experienceContent {
+	background: linear-gradient(10deg, #B76478 20%, #E66B6E 20%);
+}
+
+/* Styling my location content */
+.theLocationContent {
+	background: linear-gradient(to right, #E66B6E 50%, #EBAC8B 50%);
+	min-height: 45rem;
+}
+
+.theLocationContent .row {
+	min-height: 45rem;
+}
+
+/* Styling the figure image(the phone) */
+figure img {
+	height: 30rem;
+}
+
+
+.figureContainer {
+	height: 30rem;
+}

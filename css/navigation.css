@@ -1,0 +1,14 @@
+/* Styling nav items */
+.nav-item {
+	min-width: 6vw;
+}
+
+/* Styling Dropdown-menu to make it overlap content */
+
+.dropdown-menu {
+
+	/* Important must be used to override bootstrap css */
+	position: absolute !important;
+	z-index: 2 !important;
+	width: 100% !important;
+}

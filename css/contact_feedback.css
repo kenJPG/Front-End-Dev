@@ -1,0 +1,41 @@
+/* Styling feedback */
+.feedbackContent {
+	min-height: 50rem;
+	background: linear-gradient(-220deg, rgb(16,29,74) 50%, #121B3C 50%);
+	padding: 5rem;
+}
+
+.feedbackContent .container {
+	background: rgb(26,39,84);
+}
+
+.feedbackContent .mainRow {
+	min-height: 30rem;
+}
+
+/* Styling range input to allow for correct responsiveness */
+.feedbackContent input.form-range {
+	width: 25vw;
+	min-width: 10rem;
+}
+
+/* Styling suggestion list container */
+.listContainer {
+	width: 93.5%;
+	position: absolute;
+	z-index: 3;
+	height: fit-content;
+}
+
+/* Allowing scroll for suggestion list */
+.list-group {
+	max-height: 35vh;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+/* Giving hover effect to suggestion items */
+.resultItem:hover {
+	filter: brightness(0.9);
+	cursor: pointer;
+}

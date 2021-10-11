@@ -1,0 +1,15 @@
+/* Giving modal header a slightly darker color */
+.modal-header {
+	background: #F8F9FA;
+}
+
+/* Styling copy button */
+.modal .copyButton {
+	cursor: pointer;
+	font-size: 1.3rem;
+}
+
+/* Giving the text a slightly darker background */
+.modal-body input {
+	background-color: #F4F4F4;
+}

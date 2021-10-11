@@ -1,0 +1,308 @@
+<!--
+	Images that do not have a comment providing the source were drawn by me.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Future</title>
+		
+        <!-- Favicon taken from Pinterest: https://www.pinterest.com/pin/34551122112612212/-->
+        <link href="../img/favicon.png" type="image/png" rel="shortcut icon" />
+		
+		
+		<!-- Linking Bootstrap CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		
+        <!-- Linking Local CSS Files -->
+		<link rel="stylesheet" href="../css/future.css" />
+		<link rel="stylesheet" href="../css/future_table.css" />
+		<link rel="stylesheet" href="../css/navigation.css" />
+		<link rel="stylesheet" href="../css/default.css" />
+		
+	</head>
+	<body class="bg-dark">
+		
+		<!-- Header for Navigation -->
+		<header>
+
+			<!-- Back To Top button. This div acts as the button -->
+			<div id="toTopButton" class="border border-dark d-flex btn btn-warning position-fixed text-dark">
+
+				<!-- Resetting the font size using defaultFont class  -->
+				^<span class="defaultFont"></span>
+			</div>
+
+			<!-- Navbar that will expand at medium size. It will be a dark theme. -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+
+				<!-- Navbar Icon -->
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand sticky-top">🍂</a>
+				</div>
+
+				<!-- Navbar Increase Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNavBar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="toggleNavBar">
+					<ul class="navbar-nav">
+
+						<!-- Navbar Items each button will be taking on a dark theme. -->
+						<li class="nav-item"><a class="nav-link btn btn-light" href="index.html">home</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-light" href="past.html">past</a></li>
+						<li class="nav-item"><a class="nav-link btn btn-light" href="present.html">present</a></li>
+						<li class="nav-item active"><a class="nav-link btn btn-light" href="future.html">future</a></li>
+
+						<!-- Dropdown Item -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle btn btn-light" data-toggle="dropdown">contact</a>
+
+							<!-- Dropdown Menu -->
+							<div class="dropdown-menu">
+
+								<!-- Dropdown Options for Contact -->
+								<a href="contact.html" class="dropdown-item">Contact Me</a>
+								<div class="dropdown-divider"></div>
+								<a href="contact.html#socialMediaArea" class="dropdown-item">Social Media</a>
+								<a href="contact.html#feedbackFormArea" class="dropdown-item">Feedback Form</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Main Content -->
+		<main>
+
+			<!-- Title Page -->
+			<div class="titlePage">
+				<div class="row align-items-center">
+
+					<div class="d-flex col-sm-12 text-center justify-content-center">
+
+						<!-- Title Text. Monospace used for better-looking animation. -->
+						<!-- Text-break used to prevent the title from overflowing into x-axis, especially in smaller viewports -->
+						<p class="mainTitle display-1 text-white text-break text-monospace">
+							<span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Possible Careers Content -->
+			<div class="possibleCareersContent">
+
+				<div class="container py-5">
+					<div class="row justify-content-center text-light">
+						<div class="col-12 my-5">
+
+							<!-- Title of possible careers. Text-break used to prevent the title from overflowing into x-axis, especially in
+							smaller viewports -->
+							<div class="possibleCareersTitle display-2 text-center text-break text-monospace">
+								<span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span>
+							</div>
+
+						</div>
+
+						<!-- Column 1 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Data Scientist Card -->
+							<div class="fadeInTarget card text-center opacity0 bg-dark">
+								<img class="mx-auto" src="../img/datascientist.png" alt="Data Scientist" />
+								<div class="card-body">
+									<p class="h4 card-title">Data Scientist</p>
+									<p class="card-text">
+										My course (DAAA) is definitely for those who want to pursue the data route. It's becoming an increasingly popular career alongside the rise of A.I.!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Column 2 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Software Engineer Card -->
+							<div class="fadeInTarget card text-center opacity0 bg-dark">
+								<img class="mx-auto" src="../img/softwareengineer.png" alt="Software Engineer" />
+								<div class="card-body">
+									<p class="h4 card-title">Software Engineer</p>
+									<p class="card-text">
+										We've been taught the fundamentals of programming so I think it's possible to branch over to Software Engineering.
+									</p>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Column 3 -->
+						<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+
+							<!-- Cyber Security Card -->
+							<div class="fadeInTarget card text-center opacity0 bg-dark">
+								<img class="mx-auto" src="../img/cybersecurity.png" alt="Cyber Security" />
+								<div class="card-body">
+									<p class="h4 card-title">Cyber Security</p>
+									<p class="card-text">
+										This is probably the farthest stretch but it should still be possible to get into. Again we're being taught a little bit of everything so it should be fine.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- My Course Content -->
+
+			<div class="myCourseContent">
+
+				<!-- Making a row, splitting between text and table -->
+				<div class="myCourseContainer row align-items-center h-100">
+
+					<!-- Title / Text Column -->
+					<div class="col-sm-12 col-md-6 col-lg-5 col-xl-4 text-center my-5">
+
+						<!-- Course Title -->
+						<div class="myCourseTitle display-2 text-monospace">
+							<span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span><span>_</span>
+						</div>
+
+						<div class="myCourseText">
+							<p class="defaultSize">
+								I'm currently in the A.I. and Analytics course! It's only been my first year and we've only covered the fundamentals so I can't really form an opinion about it so far.
+								To the right is my timetable. I think it changes every semester, which makes sense as we'll be taking more advanced modules as we progress. Unfortunately, I'll most likely lose this three-day weekend. The table should give you a good idea on how the Poly schedule looks like! Some unrelated but required modules are CPR, CAT and ECG. You can read more about them in SP's
+								<span><a href="https://www.sp.edu.sg" class="text-danger">website</a></span>.
+							</p>
+						</div>
+
+					</div>
+
+					<!-- Table / Table Legend Column -->
+					<div class="col-sm-12 col-md-6 col-lg-7 col-xl-8 p-5">
+
+						<!-- Course Table -->
+						<div class="table-responsive">
+							<table class="table table-borderless my-auto">
+								
+								<!-- Colgroup for styling later -->
+								<colgroup>
+									<col class="days">
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								
+								<!-- Header Row -->
+								<thead>
+									<tr class="time">
+										<th></th>
+										<th>8:00-9:00</th>
+										<th>9:00-10:00</th>
+										<th>10:00-11:00</th>
+										<th>12:00-13:00</th>
+										<th>13:00-14:00</th>
+										<th>14:00-15:00</th>
+										<th>15:00-16:00</th>
+										<th>16:00-17:00</th>
+										<th>17:00-18:00</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<!-- Monday Row -->
+									<tr>
+										<th>Monday</th>
+										<td class="blank" colspan="1"></td>
+										<td class="FOP" colspan="3"></td>
+										<td class="blank" colspan="1"></td>
+										<td class="MATH" colspan="2"></td>
+										<td class="CAT" colspan="2"></td>
+									</tr>
+									
+									<!-- Tuesday Row -->
+									<tr>
+										<th>Tuesday</th>
+										<td class="blank" colspan="1"></td>                           
+										<td class="FOC" colspan="1" rowspan="2"></td>
+										<td class="FOC" colspan="1"></td>
+										<td class="blank" colspan="1"></td>
+										<td class="CPR" colspan="2"></td>
+										<td class="FOP" colspan="3"></td>
+									</tr>
+									
+									<!-- Wednesday Row -->
+									<tr>
+										<th>Wednesday</th>
+										<td class="FOC" colspan="1"></td>
+										<td class="blank" colspan="1"></td>
+										<td class="FED" colspan="2"></td>
+										<td class="blank" colspan="4"></td>
+									</tr>
+									
+									<!-- Thursday Row -->
+									<tr>
+										<th>Thursday</th>
+										<td class="FED" colspan="3"></td>
+										<td class="ECG" colspan="1"></td>
+										<td class="blank" colspan="1"></td>
+										<td class="MATH" colspan="2"></td>
+										<td class="blank" colspan="2"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<!-- Table Legend -->
+						<div class="tableLegend p-3">
+
+							<!-- Using rows and cols to prevent the text from overlapping one another and to
+							provide proper use of spacing -->
+							<div class="row row-cols-lg-4 row-cols-md-2 row-cols-3">
+								<div class="col FOPLegend"><div class="icon mx-2"></div><p>Fundamentals of Programming</p></div>
+								<div class="col FEDLegend"><div class="icon mx-2"></div><p>Front End Web Development</p></div>
+								<div class="col FOCLegend"><div class="icon mx-2"></div><p>Fundamentals of Computing</p></div>
+								<div class="col MATHLegend"><div class="icon mx-2"></div><p>Mathematics</p></div>
+								<div class="col CPRLegend"><div class="icon mx-2"></div><p>Communicating for Project Effectiveness</p></div>
+								<div class="col CATLegend"><div class="icon mx-2"></div><p>Critical and Analytical Thinking</p></div>
+								<div class="col ECGLegend"><div class="icon mx-2"></div><p>Education and Career Guidance</p></div>
+								<div class="col"><p>&lt;&lt; Hover over the colors!</p></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+		</main>
+		<footer>
+			<!-- Div for footer.  -->
+			<div class="Flag bg-dark d-flex justify-content-center align-items-center">
+				<a href="https://www.wikipedia.org/wiki/Singapore" target="_blank"><img src="../img/sg_flag.png" alt="Singapore Flag"></a>
+			</div>
+		</footer>
+			
+
+		<!-- Linking JQuery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+		<!-- Linking Bootstrap Bundle(includes popper.js) -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	
+		<!-- Linking JavaScript files from ../js -->
+		<script src="../js/fade_in.js"></script>
+		<script src="../js/totop_button.js"></script>
+		<script src="../js/table_highlight.js"></script>
+		<script src="../js/letter_randomize.js"></script>
+		<script src="../js/future_effects.js"></script>
+	</body>
+
+</html>

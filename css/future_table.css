@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Main Table Style */
+
+table {
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid black;
+    border-collapse: collapse; 
+}
+
+table td {
+    width: 70px;
+    height: 30px;
+}
+
+/* Time Header Row Style */
+
+tr.time th {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #F2FFE3;
+    width: 80px;
+    border-right: 3px solid rgb(70, 70, 70);
+}
+
+tr.time {
+    height: 30px;
+    border-bottom: 3px solid black;
+}
+
+/* Days Column Style */
+
+colgroup > col.days {
+    background-color: salmon;
+    border-right: 3px solid black;
+}
+
+/* Cell Styles and Table Legend Icon Styles*/
+
+td.blank {
+    background-color: rgb(230, 230, 230);
+}
+
+td.FOP, .FOPLegend div {
+    background-color: #C824B2;
+}
+
+td.MATH, .MATHLegend div {
+    background-color: #E6002B;
+}
+
+td.FOC, .FOCLegend div {
+    background-color: #FE6900;
+}
+
+td.FED, .FEDLegend div {
+    background-color: #F6BE02;
+}
+
+td.CAT, .CATLegend div {
+    background-color: #96D700;
+}
+
+td.CPR, .CPRLegend div {
+    background-color: #00AB83;
+}
+
+td.ECG, .ECGLegend div {
+    background-color: #00A3E0;
+}
+
+/* Giving a border and background to the div wrapping the table.
+This makes the scroll wheel more "attached" to the table */
+.table-responsive {
+    border: 5px solid rgb(212, 123, 7);
+    background: rgb(212, 123, 7);
+}
+
+/* Styling Future Table Legends */
+.icon {
+    height: 1.5rem;
+    width: 5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
